@@ -1,0 +1,21 @@
+.categories {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 575.98px) {
+  .categories {
+    width: 100%;
+    margin: 0px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .categories {
+    width: 100%;
+    flex-direction: column;
+  }
+}
